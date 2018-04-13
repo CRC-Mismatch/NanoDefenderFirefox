@@ -14,6 +14,7 @@ cache:
 before_script:
 - npm install archiver
 - npm install esprima
+- npm install sign-addon
 script:
 - set -e
 - node "./Continuous Integration/build.node.js"
